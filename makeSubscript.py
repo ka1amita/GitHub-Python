@@ -4,6 +4,8 @@
 # In[1]:
 
 
+# logging set-up
+
 import logging
 logging.basicConfig(filename='makeSubscripts.log', filemode='w', encoding='utf-8', format='%(asctime)s %(levelname)s:%(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.DEBUG)
 logging.info("start of program")

@@ -1,0 +1,38 @@
+03/10/2023 06:42:21 PM INFO:start of program
+03/10/2023 06:42:21 PM INFO:
+03/10/2023 06:42:21 PM INFO:Characters in the subscriptExceptions list
+03/10/2023 06:42:21 PM INFO:['.', ' ', '']
+03/10/2023 06:42:21 PM INFO:
+03/10/2023 06:42:21 PM INFO:Digits in the numbersStrings list:
+03/10/2023 06:42:21 PM INFO:['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+03/10/2023 06:42:21 PM INFO:
+03/10/2023 06:42:34 PM INFO:formula input:
+03/10/2023 06:42:34 PM INFO:h2so4
+03/10/2023 06:42:34 PM INFO:
+03/10/2023 06:42:34 PM INFO:formula output:
+03/10/2023 06:42:34 PM INFO:h₂so₄
+03/10/2023 06:42:34 PM INFO:
+03/10/2023 06:42:34 PM INFO:end of program
+03/10/2023 06:42:34 PM INFO:
+03/10/2023 06:42:34 PM INFO:unit test result
+test_bracket (__main__.TestIsNumber) ... ok
+test_digit (__main__.TestIsNumber) ... ok
+test_fullStop (__main__.TestIsNumber) ... ok
+test_letter (__main__.TestIsNumber) ... ok
+test_allIntegersBetween1and100 (__main__.TestMakeSubscripts) ... ok
+test_allstringsBetween1and100 (__main__.TestMakeSubscripts) ... ok
+test_bracket (__main__.TestMakeSubscripts) ... ok
+test_digit (__main__.TestMakeSubscripts) ... ok
+test_formula1 (__main__.TestMakeSubscripts) ... ok
+test_formula2 (__main__.TestMakeSubscripts) ... ok
+test_formula3 (__main__.TestMakeSubscripts) ... ok
+test_formula4 (__main__.TestMakeSubscripts) ... ok
+test_fullStop (__main__.TestMakeSubscripts) ... ok
+test_integer (__main__.TestMakeSubscripts) ... expected failure
+test_integerTypeError (__main__.TestMakeSubscripts) ... ok
+test_letter (__main__.TestMakeSubscripts) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.004s
+
+OK (expected failures=1)
