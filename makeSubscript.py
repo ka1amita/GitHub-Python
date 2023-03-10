@@ -64,6 +64,7 @@ logging.info("")
 
 
 # main function
+
 def makeSubscripts(formula):
     if type(formula) != type(""):
         raise TypeError('formula is not a string!')
@@ -92,9 +93,9 @@ def makeSubscripts(formula):
 # In[7]:
 
 
-#logging.info("makeSubscript output:",makeSubscripts(formula))
+# formula output
 
-print("formula output:",makeSubscripts(formula))
+print("Formula output:",makeSubscripts(formula))
 
 logging.info("formula output:") 
 logging.info(makeSubscripts(formula))
@@ -107,6 +108,7 @@ logging.info("")
 # In[8]:
 
 
+# unit test set-up
 import unittest
 
 
@@ -114,6 +116,7 @@ import unittest
 
 
 # isNumber auxiliary function automated test
+
 class TestIsNumber(unittest.TestCase):
 
     def test_digit(self):
@@ -131,6 +134,7 @@ class TestIsNumber(unittest.TestCase):
 
 
 # makeSubscripts main function automated test
+
 class TestMakeSubscripts(unittest.TestCase): 
     
     def test_allIntegersBetween1and100(self):
@@ -174,9 +178,10 @@ class TestMakeSubscripts(unittest.TestCase):
 # In[11]:
 
 
-import sys
 #printing of the unit test output to a file; source: https://www.geeksforgeeks.org/python-logging-test-output-to-a-file/
 #originally just: unittest.main(argv=[''], verbosity=2, exit=False)
+
+import sys
 def main(out = sys.stderr, verbosity = 2):
     loader = unittest.TestLoader()
   
