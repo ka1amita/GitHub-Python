@@ -1,17 +1,17 @@
 # Quick Start Guide
-1. Run the Python script **makeSubscript.py**
+1. Run the Python script *makeSubscript.py*
 2. wait for the input prompt **Formula input:**
 2. Input the formula as a **plain text**
     * e.g. *Na2SO4.12H2O*
 3. Read the output after **Formula output:**
-    * e.g. *Na~2~SO~4~.12H~2~O*
+    * e.g. *Na<sub>2</sub>SO<sub>4</sub>.12H<sub>2</sub>O*
 
 # Logging
-* log inside a file **makeSubscript.log**
-* note that the logging file is overwritten every time
+* log inside a file *makeSubscript.log*
+* note that the log file is overwritten every time
 
 # Unit Test
-* appended to the end of log file above
+* appended to the end of the log file above
 
 # Basic Logic
 * the input is **converted** to a **string** (i.e. escaped)
