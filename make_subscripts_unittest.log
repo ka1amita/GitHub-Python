@@ -1,0 +1,21 @@
+test_bracket (__main__.TestIsDigit) ... ok
+test_digit (__main__.TestIsDigit) ... ok
+test_fullStop (__main__.TestIsDigit) ... ok
+test_letter (__main__.TestIsDigit) ... ok
+test_allIntegersBetween1and100 (__main__.TestMakeSubscripts) ... ok
+test_allstringsBetween1and100 (__main__.TestMakeSubscripts) ... ok
+test_bracket (__main__.TestMakeSubscripts) ... ok
+test_digit (__main__.TestMakeSubscripts) ... ok
+test_formula1 (__main__.TestMakeSubscripts) ... ok
+test_formula2 (__main__.TestMakeSubscripts) ... ok
+test_formula3 (__main__.TestMakeSubscripts) ... ok
+test_formula4 (__main__.TestMakeSubscripts) ... ok
+test_fullStop (__main__.TestMakeSubscripts) ... ok
+test_integer (__main__.TestMakeSubscripts) ... expected failure
+test_integerTypeError (__main__.TestMakeSubscripts) ... ok
+test_letter (__main__.TestMakeSubscripts) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.009s
+
+OK (expected failures=1)
